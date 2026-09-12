@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="leap-year.c.vcxproj" />
+  <Project Path="leap-year.c.vcxproj" Id="2925579f-4175-4590-8e31-584397e2633b" />
 </Solution>
