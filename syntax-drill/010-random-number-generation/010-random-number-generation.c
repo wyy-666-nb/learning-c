@@ -9,7 +9,7 @@ void game()
 	//生成随机数  rand  srand   time   srand((unsigned int)time(null));
 	int r = rand() % 100 + 1;
 	int count = 5;
-	while (1)
+	while (count > 0)
 	{
 		printf("你还有%d次机会", count);
 		printf("请猜数字：");
@@ -42,7 +42,7 @@ int main()
 	{
 		printf("-----------------------\n");
 		printf("---------1.play--------\n");
-		printf("---------2.eixt--------\n");
+		printf("---------2.exit--------\n");
 		printf("-----------------------\n");
 		printf("-----------------------\n");
 		printf("请选择:");
@@ -52,7 +52,7 @@ int main()
 		case 1:
 			game();//玩游戏的函数
 			break;
-		case 0:
+		case 2:
 			printf("退出游戏\n");
 			break;
 		default:
