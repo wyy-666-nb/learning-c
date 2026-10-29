@@ -94,6 +94,7 @@
 | 2026-10-26       | 指针 10（数组和指针笔试题解析 · sizeof 与 strlen 的区别） | 二维数组 11 题全对；注释里的 printf 漏了 % 百分号 |
 | 2026-10-27       | 指针 11（指针运算笔试题 · 多级指针综合）—— **指针章节完结 94-134 集** | 第 4 个字符串打成 FIRET，标准题是 FIRST，输出就不同 |
 | 2026-10-28       | 字符函数（第135-136集）+ 字符串函数 01（strlen / strcpy 及模拟实现） | 数组名是常量地址不能整体赋值；strlen 返回 size_t，相减不会小于 0 |
+| 2026-10-29       | 字符串函数 02（strcat/strcmp/strncpy/strncat/strncmp）+ 03（strstr/strtok/strerror/perror） | 039 全是注释没有 main 编译不过；perror 输出走 stderr |
 
 ## 踩过的坑
 
