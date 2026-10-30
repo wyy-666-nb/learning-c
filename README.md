@@ -95,6 +95,7 @@
 | 2026-10-27       | 指针 11（指针运算笔试题 · 多级指针综合）—— **指针章节完结 94-134 集** | 第 4 个字符串打成 FIRET，标准题是 FIRST，输出就不同 |
 | 2026-10-28       | 字符函数（第135-136集）+ 字符串函数 01（strlen / strcpy 及模拟实现） | 数组名是常量地址不能整体赋值；strlen 返回 size_t，相减不会小于 0 |
 | 2026-10-29       | 字符串函数 02（strcat/strcmp/strncpy/strncat/strncmp）+ 03（strstr/strtok/strerror/perror） | 039 全是注释没有 main 编译不过；perror 输出走 stderr |
+| 2026-10-30       | 内存函数（第145-147集：memcpy / memmove / memset / memcmp） | memcmp 返回值只保证正负（MSVC 返回 1 不是 3）；日期写成 10-28 |
 
 ## 踩过的坑
 
