@@ -97,6 +97,7 @@
 | 2026-10-29       | 字符串函数 02（strcat/strcmp/strncpy/strncat/strncmp）+ 03（strstr/strtok/strerror/perror） | 039 全是注释没有 main 编译不过；perror 输出走 stderr |
 | 2026-10-30       | 内存函数（第145-147集：memcpy / memmove / memset / memcmp） | memcmp 返回值只保证正负（MSVC 返回 1 不是 3）；日期写成 10-28 |
 | 2026-11-01       | 数据在内存中的存储（第148-153集：大小端 / 补码 / IEEE 754 浮点数） | main 是空的，13 个关键实验一个都没跑 |
+| 2026-11-02       | 结构体 01（第155-161集：声明 / 内存对齐 / 传参 / 位段） | 对齐规则总结得完整；取位段地址那行留在代码里导致 C2104 编译不过 |
 
 ## 踩过的坑
 
