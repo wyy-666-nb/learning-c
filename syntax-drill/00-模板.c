@@ -35,7 +35,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     /* ========== 第 1 部分：最小示例 ========== */
     /* 照着课上讲的最简单的例子写一遍 */
