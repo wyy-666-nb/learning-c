@@ -256,6 +256,7 @@
 | 2026-11-08       | 文件管理 03（第178-180集：fprintf/fscanf/sprintf/sscanf/fwrite/fread）                                   | 只读不写，运行找不到 test.txt 直接退出；fread 后没有输出看不到结果；sscanf 那行用了花括号 |
 | 2026-11-09       | 文件管理 04（第181-183集：fseek/ftell/rewind/fflush）+ 编译与链接（第184-186集：extern / 多文件）                | 051 全是注释没 main；052 单文件编译报 LNK2019 要两个 .c 一起编 |
 | 2026-11-10       | 预处理 01（第187-194集：#define 常量宏 / 带参宏 / ## 连接符 / 预定义符号）                                 | 宏展开的函数名是 max_int，调用写成 MAX_int 导致 LNK2019 |
+| 2026-11-11       | 预处理 02（第195-200集：#undef / #if / #ifdef / #ifndef / #pragma once / #include 两种写法）—— **C 语言课程全部学完** | 笔记里 `#endi` 少打了；双下划线开头的宏名是保留标识符，建议改用 DEBUG |
 
 ## 踩过的坑
 
